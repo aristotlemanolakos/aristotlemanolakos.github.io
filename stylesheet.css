@@ -1,0 +1,614 @@
+/* mobile */
+@media screen and (max-width: 481px) {
+	.login-dialog {
+		width: 280px;
+	}
+	.login-textfield-a {
+		width: 260px;
+	}
+	.main-body {
+		width: 280px;
+	}
+	.name-blurb {
+		width: 220px;
+	}
+	.username-blurb {
+		width: 220px;
+	}
+	.edit-card-textfield {
+		width: 260px;
+	}
+	.input-textfield-a {
+		width: 218px;
+	}
+	.card {
+		width: 280px;
+	}
+	.url-search-textfield {
+		width: 150px;
+	}
+	.qr-image {
+		width: 280px;
+	}
+	.connections-body {
+		width: 280px;
+	}
+	.inline-card {
+		width: 260px;
+	}
+}
+
+/* desktop */
+@media screen and (min-width: 481px) {
+	.login-dialog {
+		width: 340px;
+	}
+	.login-textfield-a {
+		width: 320px;
+	}
+	.main-body {
+		width: 500px;
+	}
+	.name-blurb {
+		width: 440px;
+	}
+	.username-blurb {
+		width: 440px;
+	}
+	.edit-card-textfield {
+		width: 480px;
+	}
+	.input-textfield-a {
+		width: 438px;
+	}
+	.card {
+		width: 400px;
+	}
+	.url-search-textfield {
+		width: 370px;
+	}
+	.qr-image {
+		width: 300px;
+	}
+	.connections-body {
+		width: 420px;
+	}
+	.inline-card {
+		width: 400px;
+	}
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+	background-color: white;
+	position: relative;
+}
+
+.message-dialog {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	color: white;
+	background-color: #4da6ff;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+}
+
+.login-dialog {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 10px;
+	color: #4da6ff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	background-color: white;
+}
+
+.login-blurb {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	margin-bottom: 10px;
+}
+
+.login-textfield-a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	height: auto;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	-webkit-appearance:none;
+}
+.login-textfield-a:focus {
+	border-color: #4da6ff;
+}
+
+.login-btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+	color: white;
+	background-color: #4da6ff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4da6ff;
+	border-radius: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: none;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+.login-btn:active {
+	background-color: white;
+	color: #4da6ff;
+}
+
+.main-nav {
+	position: fixed;
+	width: 100%;
+	height: 62px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+	border-bottom-style: solid;
+	background-color: white;
+}
+
+.main-nav-blurb {
+	display: inline-block;
+	padding: 10px;
+	color: #4da6ff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 24pt;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.main-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-top: 72px;
+	word-wrap: break-word;
+}
+
+.name-blurb {
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.username-blurb {
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: left;
+	color: gray;
+	padding-bottom: 10px;
+}
+
+.qr-thumbnail {
+	display: inline-block;
+	margin-top: 10px;
+	float: right;
+	width: 50px;
+	height: 50px;
+	border-color: #4da6ff;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px;
+}
+
+.edit-card-textfield {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	height: auto;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	resize: none;
+	-webkit-appearance:none;
+}
+
+.thumbnail-image-a {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-right: 10px;
+}
+
+.input-textfield-a {
+	display: inline-block;
+	height: 28px;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	background-color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	resize: none;
+	-webkit-appearance: none;
+}
+
+.link-a {
+	text-decoration: none;
+	color: #4da6ff;
+}
+
+.card {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 6px;
+	word-wrap: break-word;
+}
+
+.card-name {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.card-username {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14pt;
+	color: gray;
+	padding-bottom: 10px;
+}
+
+.card-description {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: center;
+	color: black;
+	padding-bottom: 10px;
+}
+
+.card-item {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+	margin-bottom: 10px;
+}
+
+.card-thumbnail {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin-right: 10px;
+}
+
+.card-text {
+	display: inline-block;
+	height: 28px;
+	outline: none;
+	width: 80%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	background-color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	resize: none;
+	-webkit-appearance: none;
+	margin-top: 6px;
+}
+
+.download-link {
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: #4da6ff;
+	border-style: solid;
+	border-color: #4da6ff;
+	border-width: 1px;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.download-image {
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.download-text {
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 30px;
+}
+
+.nav-card-image {
+	height: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+
+.center-nav-link {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav-indicator {
+	margin-top:-8px;
+	text-decoration: none;
+	color: #4da6ff;
+	font-size: 20pt;
+}
+
+.nav-link {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin-top: 11px;
+	margin-left: 11px;
+	margin-right: 11px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#left-nav {
+	float: left;
+}
+
+#right-nav {
+	float: right;
+}
+
+.nav-image {
+	width: 28px;
+	height: 28px;
+}
+
+.info-blurb {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10pt;
+	color: gray;
+}
+
+.username-input {
+	display: block;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 6px;
+}
+
+.url-search-text {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color: black;
+}
+
+.url-search-textfield {
+	display: inline-block;
+	height: auto;
+	outline: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color: #4da6ff;
+	background-color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	margin-left: -4px;
+	resize: none;
+	-webkit-appearance:none;
+}
+
+.qr-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: auto;
+	border-color: gray;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px;
+}
+
+.qr-link {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color: #4da6ff;
+	text-decoration: none;
+}
+
+.connections-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-top: 72px;
+	word-wrap: break-word;
+}
+
+.inline-card {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 6px;
+	word-wrap: break-word;
+}
+
+.no-card-content {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	color: gray;
+}
+
+.textfield-a {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 260px;
+	background-color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 6px;
+	color: black;
+	outline: none;
+	-webkit-appearance:none;
+}
+
+.settings-save-btn {
+	display: block;
+	margin-bottom: 10px;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+	background-color: #4da6ff;
+	border-style: solid;
+	border-color: #4da6ff;
+	border-width: 1px;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	-webkit-appearance:none;
+}
+
+.info-banner {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	color: white;
+	background-color: #4da6ff;
+	border-radius: 6px;
+}
+
+.pelt-link-blurb {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	text-align: right;
+}
+
+.settings-icon {
+	width: 16px;
+	height: 16px;
+	margin-bottom: -2px;
+}
+
+.info-message {
+	display: block;
+	margin-bottom: 10px;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: #4da6ff;
+	border-style: solid;
+	border-color: #4da6ff;
+	border-width: 1px;
+	border-radius: 6px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	cursor: default;
+	outline: none;
+}
