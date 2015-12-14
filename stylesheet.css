@@ -353,7 +353,7 @@ body {
 	display: inline-block;
 	height: 28px;
 	outline: none;
-	width: 80%;
+	width: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 14pt;
 	background-color: white;
@@ -362,21 +362,23 @@ body {
 	resize: none;
 	-webkit-appearance: none;
 	margin-top: 6px;
+	text-align: center
 }
 
 .card-textDesc {
 	display: table-footer-group;
 	height: 28px;
 	outline: none;
-	width: 80%;
+	width: 90%;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 10pt;
+	font-size: 14pt;
 	background-color: white;
 	border-width: 0px;
 	border-radius: 0px;
 	resize: none;
 	-webkit-appearance: none;
 	margin-top: 6px;
+	padding-bottom: 10px;
 }
 
 .newboxes2 {
