@@ -327,8 +327,8 @@ body {
 
 .card-thumbnail {
 	display: inline-block;
-	width: 26px;
-	height: 26px;
+	width: 25px;
+	height: 25px;
 	float: left;
 	margin-right: 10px;
 }
