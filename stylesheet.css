@@ -364,6 +364,21 @@ body {
 	margin-top: 6px;
 }
 
+.card-textDesc {
+	display: table-footer-group;
+	height: 28px;
+	outline: none;
+	width: 80%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10pt;
+	background-color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	resize: none;
+	-webkit-appearance: none;
+	margin-top: 6px;
+}
+
 .newboxes {
 	display: none;
 }
