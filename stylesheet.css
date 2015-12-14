@@ -325,6 +325,7 @@ body {
 	margin-bottom: 10px;
 }
 
+
 .card-thumbnail {
 	display: inline-block;
 	width: 25px;
@@ -346,6 +347,25 @@ body {
 	resize: none;
 	-webkit-appearance: none;
 	margin-top: 6px;
+}
+
+.card-textTitle {
+	display: inline-block;
+	height: 28px;
+	outline: none;
+	width: 80%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14pt;
+	background-color: white;
+	border-width: 0px;
+	border-radius: 0px;
+	resize: none;
+	-webkit-appearance: none;
+	margin-top: 6px;
+}
+
+.newboxes {
+	display: none;
 }
 
 .download-link {

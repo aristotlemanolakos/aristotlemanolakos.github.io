@@ -10,6 +10,24 @@
 
 		<title>Aristotle Manolakos</title>
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
+		<script>
+			/** Title **/
+			function slideonlyone(thechosenone) {
+				$('.newboxes1').each(function(index) {
+					  if ($(this).attr("id") == thechosenone) {
+						   $(this).slideDown(200);
+					  }
+					  else {
+						   $(this).slideUp(600);
+					  }
+			 	});
+			}
+			
+			/** Drop Down**/
+		</script>
+		
 	</head>
 
 	<body>
@@ -60,11 +78,27 @@
         			<div class='card-text'>github.com/aristotlemanolakos</div>
 			</div>
 		</a>
+		
+		<a href='http://google.com' class='link-a'>
+            <div class='card-item'>
+				<img src='img/MyIcons/png/briefcase65.png' class='card-thumbnail'>
+                	<div class='card-text'>Résumé</div>
+            </div>
+        </a>
+		
+		
+		<div class="card-textTitle"><a id="myHeader1" href="javascript:slideonlyone('newboxes1');" >Software Developer - Microsoft</a></div>
+		<div class="card-textDesc"><div class="newboxes2" id="newboxes1">Eum oblique tincidunt sententiae eu, mei ne debitis propriae, dolorem democritum sea ad.</div></div>
+		
+		<div class="card-textTitle"><a id="myHeader2" href="javascript:slideonlyone('newboxes2');" >Software Developer - Microsoft</a></div>
+		<div class="card-textDesc"><div class="newboxes2" id="newboxes2">Eum oblique tincidunt sententiae eu, mei ne debitis propriae, dolorem democritum sea ad.</div></div>
+
+
             
-        <a href='tel:4158541522' class='download-link'>
+       <!-- <a href='tel:4158541522' class='download-link'>
 			<img src='img/download.png' class='download-image'>
 				<p class='download-text'>Connect With me</p>
-		</a> 
+			</a> -->
             
     </div>
 		
