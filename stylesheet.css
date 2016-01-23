@@ -15,11 +15,17 @@
 	.username-blurb {
 		width: 220px;
 	}
+	.search-textfield-div {
+		width: 260px;
+	}
 	.edit-card-textfield {
 		width: 260px;
 	}
 	.input-textfield-a {
 		width: 218px;
+	}
+	.input-textfield-b {
+		width: 205px;
 	}
 	.card {
 		width: 280px;
@@ -55,11 +61,17 @@
 	.username-blurb {
 		width: 440px;
 	}
+	.search-textfield-div {
+		width: 480px;
+	}
 	.edit-card-textfield {
 		width: 480px;
 	}
 	.input-textfield-a {
 		width: 438px;
+	}
+	.input-textfield-b {
+		width: 425px;
 	}
 	.card {
 		width: 400px;
@@ -74,7 +86,7 @@
 		width: 420px;
 	}
 	.inline-card {
-		width: 400px;
+		width: 480px;
 	}
 }
 
@@ -97,10 +109,10 @@ body {
 	height: auto;
 	padding: 10px;
 	color: white;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 }
 
 .login-dialog {
@@ -109,16 +121,16 @@ body {
 	margin-right: auto;
 	margin-top: 10px;
 	padding: 10px;
-	color: #4da6ff;
-	font-family: 'Josefin Sans', sans-serif;
+	color: #21cd99;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	background-color: white;
 }
 
 .login-blurb {
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 24pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22pt;
 	margin-bottom: 10px;
 }
 
@@ -127,8 +139,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	height: auto;
 	background-color: white;
 	border-width: 1px;
@@ -140,7 +152,7 @@ body {
 	-webkit-appearance:none;
 }
 .login-textfield-a:focus {
-	border-color: #4da6ff;
+	border-color: #21cd99;
 }
 
 .login-btn {
@@ -149,14 +161,14 @@ body {
 	margin-right: auto;
 	margin-top: 10px;
 	width: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 14pt;
+	font-size: 12pt;
 	color: white;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #4da6ff;
+	border-color: #21cd99;
 	border-radius: 6px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -166,13 +178,14 @@ body {
 }
 .login-btn:active {
 	background-color: white;
-	color: #4da6ff;
+	color: #21cd99;
 }
 
 .main-nav {
 	position: fixed;
+	z-index: 2;
 	width: 100%;
-	height: 62px;
+	height: 68px;
 	text-align: center;
 	border-bottom-width: 1px;
 	border-bottom-color: gray;
@@ -183,10 +196,10 @@ body {
 .main-nav-blurb {
 	display: inline-block;
 	padding: 10px;
-	color: #4da6ff;
-	font-family: 'Josefin Sans', sans-serif;
+	color: #21cd99;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 24pt;
+	font-size: 22pt;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -196,15 +209,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	padding-top: 72px;
+	padding-top: 78px;
 	word-wrap: break-word;
 }
 
 .name-blurb {
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 18pt;
+	font-size: 16pt;
 	text-align: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -212,9 +225,9 @@ body {
 
 .username-blurb {
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: left;
 	color: gray;
 	padding-bottom: 10px;
@@ -224,9 +237,9 @@ body {
 	display: inline-block;
 	margin-top: 10px;
 	float: right;
-	width: 50px;
-	height: 50px;
-	border-color: #4da6ff;
+	width: 58px;
+	height: 58px;
+	border-color: #21cd99;
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 6px;
@@ -237,8 +250,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	height: auto;
 	background-color: white;
 	border-width: 1px;
@@ -263,8 +276,8 @@ body {
 	display: inline-block;
 	height: 28px;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	background-color: white;
 	border-width: 0px;
 	border-radius: 0px;
@@ -272,9 +285,35 @@ body {
 	-webkit-appearance: none;
 }
 
+.input-textfield-b {
+	display: inline-block;
+	height: 28px;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	background-color: #21cd99;
+	border-width: 0px;
+	border-radius: 0px;
+	resize: none;
+	color: white;
+	-webkit-appearance: none;
+}
+.input-textfield-b::-webkit-input-placeholder {
+	color: white;
+}
+.input-textfield-b::-moz-placeholder {
+	color: white;
+}
+.input-textfield-b:-ms-input-placeholder {
+	color: white;
+}
+.input-textfield-b:-moz-placeholder {
+	color: white;
+}
+
 .link-a {
 	text-decoration: none;
-	color: #4da6ff;
+	color: #21cd99;
 }
 
 .card {
@@ -292,26 +331,26 @@ body {
 
 .card-name {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
 	font-weight: bold;
 	padding-bottom: 10px;
 }
 
 .card-username {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
 	color: gray;
 	padding-bottom: 10px;
 }
 
 .card-description {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
 	text-align: center;
 	color: black;
 	padding-bottom: 10px;
@@ -325,11 +364,10 @@ body {
 	margin-bottom: 10px;
 }
 
-
 .card-thumbnail {
 	display: inline-block;
-	width: 25px;
-	height: 25px;
+	width: 28px;
+	height: 28px;
 	float: left;
 	margin-right: 10px;
 }
@@ -339,50 +377,14 @@ body {
 	height: 28px;
 	outline: none;
 	width: 80%;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	background-color: white;
 	border-width: 0px;
 	border-radius: 0px;
 	resize: none;
 	-webkit-appearance: none;
-	margin-top: 6px;
-}
-
-.card-textTitle {
-	display: inline-block;
-	height: 28px;
-	outline: none;
-	width: 100%;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
-	background-color: white;
-	border-width: 0px;
-	border-radius: 0px;
-	resize: none;
-	-webkit-appearance: none;
-	margin-top: 6px;
-	text-align: center
-}
-
-.card-textDesc {
-	display: table-footer-group;
-	height: 28px;
-	outline: none;
-	width: 90%;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
-	background-color: white;
-	border-width: 0px;
-	border-radius: 0px;
-	resize: none;
-	-webkit-appearance: none;
-	margin-top: 6px;
-	padding-bottom: 10px;
-}
-
-.newboxes2 {
-	display: none;
+	margin-top: 2px;
 }
 
 .download-link {
@@ -390,21 +392,22 @@ body {
 	width: auto;
 	height: auto;
 	padding: 10px;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	border-style: solid;
-	border-color: #4da6ff;
+	border-color: #21cd99;
 	border-width: 1px;
 	border-radius: 6px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
 	font-weight: bold;
 }
 
 .download-image {
 	position: absolute;
+	z-index: 1;
 	display: inline-block;
 	height: 20px;
 	margin-right: 10px;
@@ -412,7 +415,7 @@ body {
 
 .download-text {
 	display: inline-block;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-left: 30px;
 }
 
@@ -437,8 +440,8 @@ body {
 .nav-indicator {
 	margin-top:-8px;
 	text-decoration: none;
-	color: #4da6ff;
-	font-size: 20pt;
+	color: #21cd99;
+	font-size: 18pt;
 }
 
 .nav-link {
@@ -469,7 +472,7 @@ body {
 	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	color: gray;
 }
@@ -488,8 +491,8 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 24pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22pt;
 	color: black;
 }
 
@@ -497,9 +500,9 @@ body {
 	display: inline-block;
 	height: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 24pt;
-	color: #4da6ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22pt;
+	color: #21cd99;
 	background-color: white;
 	border-width: 0px;
 	border-radius: 0px;
@@ -524,9 +527,9 @@ body {
 	display: block;
 	margin-top: 10px;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 24pt;
-	color: #4da6ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22pt;
+	color: #21cd99;
 	text-decoration: none;
 }
 
@@ -554,8 +557,8 @@ body {
 
 .no-card-content {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	color: gray;
 }
 
@@ -565,8 +568,8 @@ body {
 	padding: 10px;
 	width: 260px;
 	background-color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	border-style: solid;
 	border-width: 1px;
 	border-color: gray;
@@ -582,16 +585,16 @@ body {
 	width: 100px;
 	height: auto;
 	padding: 10px;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	border-style: solid;
-	border-color: #4da6ff;
+	border-color: #21cd99;
 	border-width: 1px;
 	border-radius: 6px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
 	font-weight: bold;
 	cursor: pointer;
 	outline: none;
@@ -604,11 +607,11 @@ body {
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
 	text-align: center;
 	color: white;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	border-radius: 6px;
 }
 
@@ -616,17 +619,23 @@ body {
 	display: inline-block;
 	float: right;
 	text-align: right;
-	padding-top: 6px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: gray;
 	text-align: right;
 }
 
 .settings-icon {
 	width: 16px;
 	height: 16px;
-	margin-bottom: -2px;
+	margin-bottom: -5px;
+	padding: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #21cd99;
+	border-radius: 6px;
 }
 
 .info-message {
@@ -635,17 +644,45 @@ body {
 	width: auto;
 	height: auto;
 	padding: 10px;
-	background-color: #4da6ff;
+	background-color: #21cd99;
 	border-style: solid;
-	border-color: #4da6ff;
+	border-color: #21cd99;
 	border-width: 1px;
 	border-radius: 6px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
 	font-weight: normal;
 	cursor: default;
 	outline: none;
+}
+
+/* New Styles */
+
+.search-textfield-div {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	height: auto;
+	background-color: #21cd99;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 10px;
+	resize: none;
+	-webkit-appearance:none;
+}
+
+.thumbnail-image-b {
+	display: inline-block;
+	width: 41px;
+	height: 28px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 3px;
 }
