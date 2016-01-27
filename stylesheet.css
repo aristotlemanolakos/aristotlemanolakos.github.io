@@ -111,7 +111,7 @@ body {
 	color: white;
 	background-color: #21cd99;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 }
 
@@ -122,14 +122,14 @@ body {
 	margin-top: 10px;
 	padding: 10px;
 	color: #21cd99;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	background-color: white;
 }
 
 .login-blurb {
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22pt;
 	margin-bottom: 10px;
 }
@@ -139,7 +139,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	height: auto;
 	background-color: white;
@@ -161,7 +161,7 @@ body {
 	margin-right: auto;
 	margin-top: 10px;
 	width: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12pt;
 	color: white;
@@ -197,7 +197,7 @@ body {
 	display: inline-block;
 	padding: 10px;
 	color: #21cd99;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 22pt;
 	cursor: pointer;
@@ -215,7 +215,7 @@ body {
 
 .name-blurb {
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 16pt;
 	text-align: left;
@@ -225,7 +225,7 @@ body {
 
 .username-blurb {
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 12pt;
 	text-align: left;
@@ -250,7 +250,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	height: auto;
 	background-color: white;
@@ -276,7 +276,7 @@ body {
 	display: inline-block;
 	height: 28px;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	background-color: white;
 	border-width: 0px;
@@ -289,7 +289,7 @@ body {
 	display: inline-block;
 	height: 28px;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14pt;
 	background-color: #21cd99;
 	border-width: 0px;
@@ -331,7 +331,7 @@ body {
 
 .card-name {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18pt;
 	font-weight: bold;
 	padding-bottom: 10px;
@@ -339,7 +339,7 @@ body {
 
 .card-username {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 12pt;
 	color: gray;
@@ -348,7 +348,7 @@ body {
 
 .card-description {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 12pt;
 	text-align: center;
@@ -377,7 +377,7 @@ body {
 	height: 28px;
 	outline: none;
 	width: 80%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	background-color: white;
 	border-width: 0px;
@@ -400,7 +400,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
 }
@@ -472,7 +472,7 @@ body {
 	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	color: gray;
 }
@@ -491,7 +491,7 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22pt;
 	color: black;
 }
@@ -500,7 +500,7 @@ body {
 	display: inline-block;
 	height: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22pt;
 	color: #21cd99;
 	background-color: white;
@@ -527,7 +527,7 @@ body {
 	display: block;
 	margin-top: 10px;
 	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22pt;
 	color: #21cd99;
 	text-decoration: none;
@@ -557,7 +557,7 @@ body {
 
 .no-card-content {
 	display: block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	color: gray;
 }
@@ -568,7 +568,7 @@ body {
 	padding: 10px;
 	width: 260px;
 	background-color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	border-style: solid;
 	border-width: 1px;
@@ -593,7 +593,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	font-weight: bold;
 	cursor: pointer;
@@ -607,7 +607,7 @@ body {
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	text-align: center;
 	color: white;
@@ -621,7 +621,7 @@ body {
 	text-align: right;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	color: gray;
 	text-align: right;
@@ -652,7 +652,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
 	font-weight: normal;
 	cursor: default;
@@ -667,7 +667,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	outline: none;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14pt;
 	height: auto;
 	background-color: #21cd99;
