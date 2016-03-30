@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2007 John Dyer (http://johndyer.name)
+Copyright (c) 2016 Aristotle Manolakos (http://stotle.me)
 MIT style license
 */
 
