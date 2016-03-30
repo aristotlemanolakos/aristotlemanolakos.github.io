@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Color Name &amp; Hue</title>
+    <script type="text/javascript" src="js/prototype.js" ></script>
+    <script type="text/javascript" src="js/ondomready.js" ></script>
+	<script type="text/javascript" src="js/colormethods.js" ></script>
+	<script type="text/javascript" src="js/colorvaluepicker.js" ></script>
+	<script type="text/javascript" src="js/Slider_jd.js" ></script>
+	<script type="text/javascript" src="js/colorpicker.js" ></script>
+	<script type="text/javascript" src="js/ntc.js" ></script>    
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<!--
+	Copyright (c) 2007 John Dyer (http://johndyer.name)
+	
+	Permission is hereby granted, free of charge, to any person
+	obtaining a copy of this software and associated documentation
+	files (the "Software"), to deal in the Software without
+	restriction, including without limitation the rights to use,
+	copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the
+	Software is furnished to do so, subject to the following
+	conditions:
+	
+	The above copyright notice and this permission notice shall be
+	included in all copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+	HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+	OTHER DEALINGS IN THE SOFTWARE.
+	-->
+
+<body>
+
+<div style="display:none;">
+<img src="js/images/map-saturation.png" />
+<img src="js/images/map-saturation-overlay.png" />
+<img src="js/images/map-brightness.png" />
+<img src="js/images/map-hue.png" />
+<img src="js/images/bar-saturation.png" />
+<img src="js/images/bar-brightness.png" />
+<img src="js/images/rangearrows.gif" />
+<img src="js/images/mappoint.gif" />
+<img src="js/images/bar-blue-tl.png" />
+<img src="js/images/bar-blue-tr.png" />
+<img src="js/images/bar-blue-bl.png" />
+<img src="js/images/bar-blue-br.png" />
+<img src="js/images/bar-red-tl.png" />
+<img src="js/images/bar-red-tr.png" />
+<img src="js/images/bar-red-bl.png" />
+<img src="js/images/bar-red-br.png" />	
+<img src="js/images/bar-green-tl.png" />
+<img src="js/images/bar-green-tr.png" />
+<img src="js/images/bar-green-bl.png" />
+<img src="js/images/bar-green-br.png" />
+<img src="js/images/map-red-max.png" />
+<img src="js/images/map-red-min.png" />
+<img src="js/images/map-green-max.png" />
+<img src="js/images/map-green-min.png" />
+<img src="js/images/map-blue-max.png" />
+<img src="js/images/map-blue-min.png" />
+</div>
+
+<div id="main_frame">
+	<div id="title_frame">Color Name & Hue</div>
+
+	<table id="cnh_main">
+	<tr>
+		<td valign="top">
+			<div id="cp1_ColorMap" style="width:256px; height:256px; border:solid 1px #000;"></div>
+		</td>
+		<td valign="top">
+			<div id="cp1_ColorBar" style="width:20px; height:256px; border:solid 1px #000;"></div>
+		</td>
+		<td valign="top">
+			<table cellpadding="2px" cellspacing="0px">
+				<tr><td colspan="3">
+					<div id="cp1_Preview" style="background-color: #fff; width: 95px; height: 30px; padding: 0; margin: 0; border: solid 4px #aaa;"></div>
+				</td></tr>
+				<tr>
+					<td colspan="3" height="20"></td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_HueRadio" name="cp1_Mode" value="0" /></td>
+					<td><label for="cp1_HueRadio">H:</label></td>
+					<td><input type="text" id="cp1_Hue" value="0" style="width: 40px;" /> &deg;</td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_SaturationRadio" name="cp1_Mode" value="1" /></td>
+					<td><label for="cp1_SaturationRadio">S:</label></td>
+					<td><input type="text" id="cp1_Saturation" value="100" style="width: 40px;" /> %</td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_BrightnessRadio" name="cp1_Mode" value="2" /></td>
+					<td><label for="cp1_BrightnessRadio">B:</label></td>
+					<td><input type="text" id="cp1_Brightness" value="100" style="width: 40px;" /> %</td>
+				</tr>
+				<tr>
+					<td colspan="3" height="12"></td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_RedRadio" name="cp1_Mode" value="r" /></td>
+					<td><label for="cp1_RedRadio">R:</label></td>
+					<td><input type="text" id="cp1_Red" value="255" style="width: 40px;" /></td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_GreenRadio" name="cp1_Mode" value="g" /></td>
+					<td><label for="cp1_GreenRadio">G:</label></td>
+					<td><input type="text" id="cp1_Green" value="0" style="width: 40px;" /></td>
+				</tr>
+				<tr>
+					<td><input type="radio" id="cp1_BlueRadio" name="cp1_Mode" value="b" /></td>
+					<td><label for="cp1_BlueRadio">B:</label></td>
+					<td><input type="text" id="cp1_Blue" value="0" style="width: 40px;" /></td>
+				</tr>
+				<tr>
+					<td colspan="3" height="12"></td>
+				</tr>
+				<tr>
+					<td style="padding-left:7px;">#:</td>
+					<td colspan="2"><input type="text" id="cp1_Hex" value="FF0000" style="width: 80px;" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<div id="colorboxes" style="width:410px; padding-top:20px; padding-left:0px;">
+				<div style="float:left;">Color Name</div><div id="cp1_ColorNameText" style="font-style:italic; float:right;"></div>
+				<div id="cp1_ColorName" style="clear:both; height:30px; width:100%; border:4px solid #aaa; margin-bottom:8px;"></div>
+				<div style="float:left;">Hue</div><div id="cp1_ColorShadeText" style="font-style:italic; float:right;"></div>
+				<div id="cp1_ColorShade" style="clear:both; height:30px; width:100%; border:4px solid #aaa; margin-bottom:8px;"></div>
+			</div>
+		</td>
+	</tr>
+	</table>		
+</div>
+		
+<script type="text/javascript"><!--
+    Event.onReady(function() { cp1 = new Refresh.Web.ColorPicker("cp1",{startHex: "ffcc00", startMode:"s"}); });	
+--></script>
+
+</body>
+</html>
