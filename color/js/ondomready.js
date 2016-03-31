@@ -5,6 +5,7 @@
 // Usage:
 //
 // Event.onReady(callbackFunction);
+
 Object.extend(Event, {
   _domReady : function() {
     if (arguments.callee.done) return;

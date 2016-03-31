@@ -1,7 +1,3 @@
-/*
-Copyright (c) 2016 Aristotle Manolakos (http://stotle.me)
-MIT style license
-*/
 
 if (!window.Refresh) Refresh = {};
 if (!Refresh.Web) Refresh.Web = {};
