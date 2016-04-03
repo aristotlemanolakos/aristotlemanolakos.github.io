@@ -1,0 +1,347 @@
+<style type="text/css">
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+}
+ol, ul {
+	list-style: disc;
+}
+ul ul {
+	list-style: disc;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+	font-family: 'minion-pro', serif;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 1.03em;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 3.1em;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 2.2em;
+	color: rgb(125,125,125);
+	margin-top: 0px;
+	letter-spacing: -1px;
+	margin-bottom: 18px;
+}
+
+.i {
+	font-family: 'minion-pro', serif;
+	font-style:italic;
+}
+
+h3 {
+	font-family: 'p22-underground', sans-serif;
+	font-weight: 600;
+	-webkit-font-smoothing:antialiased;
+	font-size: 0.9em;
+	color: #8a8a8a;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid rgb(30,30,30);
+	width: 100%;
+	margin-bottom: 28px;
+}
+
+.date, em {
+	font-family: 'p22-underground', sans-serif;
+	font-size: 0.8em;
+	color: rgb(160,160,160);
+	font-weight: 600;
+	-webkit-font-smoothing:antialiased;
+	margin-left: 5px;
+	vertical-align: middle;
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+}
+
+a:hover {
+	border: none !important;
+	color: rgb(50,50,50);
+}
+
+input {
+	border: none;
+	border-bottom: 1px dotted black;
+	display: inline;
+	font-family: 'minion-pro', serif;
+	font-size: 1em;
+	padding-left: 5px;
+}
+
+textarea:focus, input:focus, .headline:focus, .tagline:focus{
+    outline: 0;
+}
+
+.headline, .tagline {
+	border-bottom: 1px dotted rgba(0,0,0,0);
+}
+
+#stripe {
+	margin-top: 10px;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+#stripe img {
+	margin-top: 10px;
+}
+
+.green {
+	color: #078e40;
+}
+
+.fa {
+	margin-left: 20px;
+	color: gray;
+	cursor: pointer;
+}
+
+.fa:hover {
+	color: black;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.editable {
+	border-bottom: 1px dotted black !important;
+}
+
+[role="menuitem"], [role="separator"]{
+	position: absolute;
+	left: -9999px;
+}
+
+.red {
+	color: red;
+}
+
+.edit, .save {
+	font-family: 'minion-pro';
+	text-transform: uppercase;
+	margin-left: 15px;
+	color: gray;
+	border-bottom: 1px dotted gray;
+}
+
+.edit:hover, .save:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#wysiwyg {
+	width: 100%;
+	padding-bottom: 10px;
+	outline: 0;
+	margin-top: 0px;
+	min-height: 30%;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	font-weight: normal;
+	font-size: 1em;
+	color: rgb(0,0,0);
+	white-space: pre-wrap;
+	line-height:120%;
+}
+
+#editor textarea {
+	  border: none;
+  border-right: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  background-color: #f6f6f6;
+  font-size: 14px;
+  font-family: 'Monaco', courier, monospace;
+  padding: 20px;
+
+}
+
+.edit-body, .save-body {
+	float:right;
+}
+
+.nav {
+	float: left;
+	text-align:left;
+	margin-bottom: 25px;
+}
+
+#wysiwyg li {
+	text-transform: none;
+	font-family: 'Calendas Regular', serif !important;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+#wysiwyg {
+  text-transform: none !important;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New !important;
+}
+
+.edit-profile, .save-profile {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 12px;
+}
+
+.profile strong {
+	font-family: 'p22-underground', sans-serif;
+	font-weight: 600;
+	-webkit-font-smoothing:antialiased;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	color: #8a8a8a;
+}
+
+.preamble {
+	color: gray;
+}
+
+#username {
+	padding-left: 0px;
+}
+
+.profile {
+	font-family: 'minion-pro', serif !important;
+	font-weight: normal !important;
+	font-size: 1em !important;
+	text-transform: none;
+	color: rgb(0,0,0);
+	line-height: 162%;
+}
+
+.profile ul ul {
+	font-size: 1em !important;
+}
+
+.profile a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+	font-family: 'minion-pro', serif;
+	font-style:italic;
+}
+
+.spacer {
+	height: 35px;
+}
+
+.topbar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: -20px;
+}
+
+ul ul {
+	font-size: 0.5em;
+}
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	body {
+    		width: 33em;
+    		padding-left: 6%;
+    		padding-top: 1.2%;
+    	}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+.syntax-help {
+	display: block;
+	margin-top:100px;
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New !important;
+	margin-bottom: 30px;
+}
+
+#wysiwyg.editable {
+	background: rgb(245,245,245);
+}
+
+em {
+	text-transform:uppercase;
+}
+
+
+</style>
