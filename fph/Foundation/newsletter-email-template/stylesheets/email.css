@@ -25,20 +25,12 @@ body {
 /* ------------------------------------- 
 		ELEMENTS 
 ------------------------------------- */
-a { color: #F76C3A;
-}
-
-.menu-item a:hover {
-    color: #F76C3A; }
-
-    .menu-item a {
-    color: #FFFFFF;
-    text-decoration: none; }
+a { color: #2BA6CB;}
 
 .btn {
 	text-decoration:none;
 	color: #FFF;
-	background-color: #F76C3A;
+	background-color: #666;
 	padding:10px 16px;
 	font-weight:bold;
 	margin-right:10px;
@@ -73,7 +65,7 @@ table.social {
 }
 a.fb { background-color: #3B5998!important; }
 a.tw { background-color: #1daced!important; }
-a.gp { background-color: #3f729b!important; }
+a.gp { background-color: #DB4A39!important; }
 a.ms { background-color: #000!important; }
 
 .sidebar .soc-btn { 
@@ -113,14 +105,14 @@ table.footer-wrap { width: 100%;	clear:both!important;
 		TYPOGRAPHY 
 ------------------------------------- */
 h1,h2,h3,h4,h5,h6 {
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1; margin-bottom:5px; color:#000;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
 
 h1 { font-weight:200; font-size: 44px;}
 h2 { font-weight:200; font-size: 37px;}
 h3 { font-weight:500; font-size: 27px;}
-h4 { font-weight:900; font-size: 23px;}
+h4 { font-weight:500; font-size: 23px;}
 h5 { font-weight:900; font-size: 17px;}
 h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
 
@@ -132,7 +124,7 @@ p, ul {
 	font-size:14px; 
 	line-height:1.6;
 }
-p.lead { font-size:15px; }
+p.lead { font-size:17px; }
 p.last { margin-bottom:0px;}
 
 ul li {
@@ -229,10 +221,4 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 		width:auto!important;
 	}
 
-}
-
-/* ------------------ */
-.omarwantedserif{
-	font-family: Georgia;
-	font-weight: 400;
 }
