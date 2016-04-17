@@ -1,92 +1,72 @@
+
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Tagalong Splashpage</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT-AWESOME CORE STYLE  -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CORE CUSTOM STYLE  -->
-    <link href="assets/css/custom.css" rel="stylesheet" />
-     <!-- THEME COLOUR STYLE (BY DEFAULT GREEN COLOR,  YOU CAN REPLACE green.css to red.css , orange.css, blue.css ,grey-bk.css or black-bk.css)  -->
-    <link id="mainCSS" href="assets/css/themes/green.css" rel="stylesheet" />
-    <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Signika&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-     <!-- STYLE SWITCHER STYLE -->
-    <link href="assets/css/style-switcher.css" rel="stylesheet" />
+  <title>Balloon</title>
+  <link rel="stylesheet" media="all" href="assets/application.css" />
+  <script src="assets/application.js"></script>
+<script src="assets/home.js"></script>
+<script src="assets/animate.js"></script>
+<script src="aassets/dropzone.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="r8XaGPS0RqHYpaM8+JTgFz42omqucxv8Yzd8orAMTkJSz6mMzs0ZXmUu0bYAf13UX2a5nglEfg8u5aIKJIpxeg==" />
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!-- Start Google Analytics -->
+
+
+
+
+    <!-- End Google Analytics -->
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home-sec"><strong>Tagalong Hackathon App!</strong></a>
-            </div>   
-        </div>
-    </div>
-    <div id="home-sec" class="container">
-        <div class="row row-pad clr-white">
-            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 
-                <h1 data-scroll-reveal="enter from the right after 0.1s"><strong>Tagalongs Purpose : </strong></h1>
-                <p data-scroll-reveal="enter from the bottom after 0.2s">
-                    Tagalong is an easily navigatable application used to either find groups or host a group doing an activity! This application lets you reach a vast audience and curate a face to face social event using only your smartphone.
-                </p>
-                <h1><strong>How To Use Tagalong :</strong></h1>
-                <p>Tagalong is a very simple service to use. To begin click the button below and text whatever you want to our bot! </p>
-                <p>503-847-9304</p>
-                <div class = "button1"><a href="sms:5038479304" class="button">Click Here To Begin!</a> </div>
-                <h1><strong>Specific Features :</strong></h1>
-                <ul>
-                    <li>Tagalong can enable you to meet new friends or collaboate with an existing friend group.</li>
-                    <li>Tagalong is a android based application with future intentions of an IOS App, and a easily accesible Web Application.</li>
-                    <li>After a few texts tagalong lets you quickly coordinate a meeting with people in your area or lets you join a premade activity.</li>
-                    <li>Tagalong allows you to save money by going with a group and mitigating costs!</li>
-                </ul>
-                <a href="#">
-                    <img src="assets/img/google-play.png" class="btn-dwwn" data-scroll-reveal="enter from the bottom after 0.5s"/>
-                </a>In Development<a href="#">
-                    <img src="assets/img/app-store.png" class="btn-dwwn" data-scroll-reveal="enter from the bottom after 0.5s"/></a>Coming Soon
-            </div>
-        </div>
-    </div>
-    <!-- /HOME SECTION END  -->
-    <div id="footer">
-        &copy 2016 tagalong.com | All Rights Reserved |  <p>Design by: tagalong dev team</p>
+<body class="home index">
 
-    </div>
-    <!-- /FOOTER SECTION END  -->
-    <div class="move-me toup-div">
-        <a href="#home-sec">
-            <i class="fa fa-arrow-up "></i>
-        </a>
+<div id="side">
+		<div class="content">
+			<div class="text">
+				<img src="assets/119.png" id="logo">
+				<h2><strong>tagalong</strong> <br>by texting <br><strong><a href="sms:15038479304">503-847-9304</a></strong></h2>
+				 <ul class="buttons">
+					<li class="fill"><a href="/login">Find</a></li>
+					<li class="border"><a href="/login">Host</a></li>
+				</ul> 
+			</div>
+		</div>
+</div>
 
-    </div>
-    <!-- /SCROLL TO UP SECTION END  -->
-    <!-- JQUERY SCRIPTS FUCTIONS  -->
-    <script src="assets/js/jquery-1.11.1.js"></script>
-    <!-- BOOTSTRAP SCRIPTS FUCTIONS  -->
-    <script src="assets/js/bootstrap.js"></script>
-    <!-- SROLLING SCRIPTS   -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <!-- STYLE SWITCHER SCRIPTS   -->
-    <script src="assets/js/style-switcher.js"></script>
-     <!-- ON SCROLL SCRIPTS   -->
-    <script src="assets/js/scrollReveal.js"></script>
-    <!-- CUSTOM SCRIPTS   -->
-    <script src="assets/js/custom.js"></script>
+<div id="more">
+	<div class="stripe"></div>
+	<div class="inner">
+		<div class="content">
+			<h3>Catchy header name</h3>
+			<p>Tagalong is an easily navigatable application used to either find groups or host a group doing an activity! This application lets you reach a vast audience and curate a face to face social event using only your smartphone.</p>
+			<br>
+			<ul>
+				<li><p>Tagalong can enable you to meet new friends or collaboate with an existing friend group.</p></li>
+				<br>
+				<li><p>After a few texts tagalong lets you quickly coordinate a meeting with people in your area or lets you join a premade activity.</p></li>
+				<br>
+				<li><p>Tagalong allows you to save money by going with a group and mitigating costs!</p></li>
+			</ul>
+			
+		</div>
+	</div>
 
+
+
+
+    <div style="padding-bottom:20px">
+        <p align="center">Made at <a href="http://hackdfw.com">HackDFW</a><br> by Aristotle, Bailey, Emily, Jay, &amp; Jorge</p>
+	</div>  
+
+   </div> 
+
+  
+
+<!-- <script id="IntercomSettingsScriptTag">
+  window.intercomSettings = {"created_at":1454015909,"user_id":5459,"bucket":"aristotle","app_id":"uixf4qtj"};
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/uixf4qtj';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script> -->
 </body>
 </html>
