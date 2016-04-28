@@ -25,6 +25,7 @@
       .panel-title{
       }
       h3.panel-title{
+
       }
       div.panel{
       height: 100%;
@@ -43,6 +44,13 @@
       .panel-body li{
         list-style-type: circle;
       }
+      .well p{
+        font-weight: 300;
+        font-size: 13px;
+      }
+      p.phelp{
+      font-weight: bolder;
+      }
     </style>
   </head>
   <body>
@@ -56,25 +64,28 @@
           <ul class="nav navbar-nav nav-tabs">
             <li class="active"><a href="#view" data-toggle="tab" aria-expanded="false">Your Canvas <span class="sr-only">(current)</span></a></li>
             <li><a href="#edit" data-toggle="tab" aria-expanded="true">Edit</a></li>
+            <li><a href="#help" data-toggle="tab" aria-expanded="true">Help</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Aristotle Manolakos</a></li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- End Navigation Bar -->
+    </nav><!-- End Navigation Bar -->
 
     <div class="container-fluid">
+
+    <!-- Tabbed Content -->
       <div id="myTabContent" class="tab-content">
+        <!--First Section -->
         <div class="tab-pane fade active in" id="view">
-          <!--First Section -->
-          <div class="container-fluid">
-            <!-- Top Container-->
-            <div class="col-md-2 col-md-offset-1">
+          
+          <!-- Top Container-->
+          <div class="col-md-12">
+            <div class="col-lg-2 col-md-offset-1">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="List your top 1-3 problems.">Problem</a></h3>
+                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="Problem: list your top 1-3 problems.">P</a></h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -85,10 +96,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="Outline a possible solution for each problem.">Solution</a></h3>
+                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="Solution: outline a possible solution for each problem.">S</a></h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -99,10 +110,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-primary">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Unique Value Proposition</h3>
+                  <h3 class="panel-title">UVP</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -111,10 +122,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Unfair Advantage</h3>
+                  <h3 class="panel-title">UA</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -124,10 +135,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Customer Segments</h3>
+                  <h3 class="panel-title">CS</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -140,11 +151,12 @@
           </div>
           <!-- End Top Container -->
 
-          <div class="container-fluid">
-            <div class="col-md-2 col-md-offset-1">
+          <!-- Middle Container -->
+          <div class="col-md-12">
+            <div class="col-lg-2 col-md-offset-1">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="List how these problems are solved today.">Existing Alternatives</a></h3>
+                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="Existing Alternatives: list how these problems are solved today.">EA</a></h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -153,10 +165,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="List the key numbers that tell you how your business is doing.">Key Metrics</a></h3>
+                  <h3 class="panel-title"><a href="#" data-toggle="tooltip" data-placement="top" title="Key Analytics: list the key analytics that tell you how your business is doing.">KA</a></h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -166,10 +178,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-primary">
                 <div class="panel-heading">
-                  <h3 class="panel-title">High-Level Concept</h3>
+                  <h3 class="panel-title">HLC</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -178,10 +190,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Channels</h3>
+                  <h3 class="panel-title">CH</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -192,10 +204,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Early Adopters</h3>
+                  <h3 class="panel-title">EA</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -204,13 +216,14 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div><!--End Middle Conatiner -->
 
-          <div class="container-fluid">
-            <div class="col-md-5 col-md-offset-1">
+          <!-- Bottom Container -->
+          <div class="col-md-12">
+            <div class="col-lg-5 col-md-offset-1">
               <div class="panel panel-info">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Cost Structure</h3>
+                  <h3 class="panel-title">C$</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -221,10 +234,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5">
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Revenue Streams</h3>
+                  <h3 class="panel-title">R$</h3>
                 </div>
                 <div class="panel-body">
                   <ul>
@@ -234,15 +247,71 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <!--End First Section -->
+          </div><!-- End Bottom Container -->
+        </div><!--End First Section -->
+
+
+        <!--Second Section -->
         <div class="tab-pane fade" id="edit">
-          <!--Second Section -->
           <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-        </div>
-        <!-- End 2nd Section -->
-      </div>
+        </div><!-- End 2nd Section -->
+
+        <!--3rd Section -->
+        <div class="tab-pane fade" id="help">
+          <div class="col-md-12"><!-- Row -->
+
+          <!--Right Section -->
+            <div class="col-md-5 col-md-offset-1">
+              <div class="well well-sm">
+              <legend>Product</legend>
+              <hr>
+                <p class="text-info phelp">(P) Problem</p>
+                <p class="">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
+                <p class="text-info phelp">(EA) Existing Alternatives</p>
+                <p class="">Are there any similar existing products/services that solve the problem?</p>
+              
+                <p class="text-info phelp">(S) Solution</p>
+                <p class="">What is the minimum feature set (MVP) that demonstrates the UVP?</p>
+
+                <p class="text-info phelp">(KA) Key Activity</p>
+                <p class="">Describe the key action users take that maps to revenue or retention. For example if you are a blogging platform, posting a blog entry would be a key activity.</p>
+
+                <p class="text-primary phelp">(UVP) Unique Value Proposition</p>
+                <p class="">What is the product's tagline or primary reason you are different and worth buying?</p>
+
+                <p class="text-info phelp">(C$) Cost Structure</p>
+                <p class="">List all your fixed and variable costs.</p>
+
+              </div>
+            </div><!--/End of Right Section -->
+
+            <!-- Left Section -->
+            <div class="col-md-5">
+              <div class="well well-sm">
+              <legend>Market</legend>
+              <hr>
+                <p class="text-success phelp">(UA) Unfair Advantage</p>
+                <p class="">"Something that cannot be copied or bought."</p>
+
+                <p class="text-success phelp">(CH) Channels</p>
+                <p class="">What is your path to customers? What free and paid channels can you use to reach the customer?</p>
+              
+                <p class="text-success phelp">(CS) Customer Segment</p>
+                <p class="">Who are the customers/users of this system? Can they be further segmented? Create a separate cavas for multiple target customers. More than likely a lof of the other pieces like P, S, CH, etc. will be different too.</p>
+
+                <p class="text-primary phelp">(HLC) High-Level Concept</p>
+                <p class="">Your X for Y analogy e.g. YouTube = Flickr for videos.</p>
+
+                <p class="text-success phelp">(R$) Revenue Streams</p>
+                <p class="">Identify your revenue model- subscription, ads, freemium, etc.- and outline your back-of-the-employee assumptions for life time value, gross margin, break-even point, etc.</p>
+              </div>
+            </div><!--/End of Left section -->
+
+            </div><!--/End Row-->
+        </div><!-- End 3rd Section -->
+
+      </div><!-- End Tabbed Content -->
     </div>
     <script>
       $(document).ready(function(){
