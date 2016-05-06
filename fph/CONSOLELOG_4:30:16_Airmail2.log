@@ -1,0 +1,9 @@
+4/30/16 6:55:22.762 PM Airmail 2[286]: 
+com.apple.message.domain: w208216274@student.hccs.edu
+com.apple.message.signature: tls
+com.apple.message.signature2: it.bloop.airmail2
+com.apple.message.signature3: rsa
+com.apple.message.summarize: YES
+com.message.operation: OUTGOING.FAILED()
+SenderMachUUID: 85819CF2-5D6A-360A-947B-FCCDCB234C13
+Sender.message.domain: jaye.ramseysutter@hccs.edu
