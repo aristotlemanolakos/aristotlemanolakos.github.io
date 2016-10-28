@@ -685,19 +685,25 @@ function initMap() {
         }]
     });
 drop();
+
+var myoverlay = new google.maps.OverlayView();
+    myoverlay.draw = function () {
+        this.getPanes().markerLayer.id='markerLayer';
+    };
+myoverlay.setMap(map);
   }
 
   function drop() {
   clearMarkers();
   for (var i = 0; i < neighborhoods.length; i++) {
-    addMarkerWithTimeout(neighborhoods[i], i * 50);
+    addMarkerWithTimeout(neighborhoods[i], i * 200);
   }
 }
 
 function addMarkerWithTimeout(position, timeout) {
       var image = {
         url: 'dot.png',
-        scaledSize: new google.maps.Size(2, 2),
+        scaledSize: new google.maps.Size(8, 8),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(0, 0)
     };
@@ -705,8 +711,9 @@ function addMarkerWithTimeout(position, timeout) {
     markers.push(new google.maps.Marker({
       position: position,
       map: map,
-      animation: google.maps.Animation.DROP,
-     // icon: image
+      //animation: google.maps.Animation.DROP,
+      icon: image,
+      optimized: false
     }));
   }, timeout);
 }
@@ -719,22 +726,6 @@ function clearMarkers() {
 }
 
 
-/*
-    var infowindow = new google.maps.InfoWindow();
-    var i;
 
-    for (i = 0; i < locations.length; i++) {
-      setTimeout(function() {
-        var loc = locations[i];
-        var marker = new google.maps.Marker({
-            animation: google.maps.Animation.DROP,
-            position: new{lat: loc[1], lng: loc[2]},
-            icon: image,
-            map: map
-        });
-      }, i * 200);
-    }
-
-*/
 
 
