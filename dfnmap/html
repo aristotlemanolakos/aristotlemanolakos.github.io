@@ -1,0 +1,9 @@
+<header id="header"> 
+		<h1 id="main-title"><a href="http://www.dayfornight.io/" alt="Day for Night">
+		<svg role="img" class="stroke c1" viewBox="0 0 190 190" x="0px" y="0px" width="190px" height="190px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dayfornight.io/wp-content/themes/dfn/images/logo-layers.svg#stroke"></use></svg>
+		<svg role="img" class="half c1" viewBox="0 0 190 190" x="0px" y="0px" width="190px" height="190px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dayfornight.io/wp-content/themes/dfn/images/logo-layers.svg#half"></use></svg>
+		<svg role="img" class="dropped c1" viewBox="0 0 190 190" x="0px" y="0px" width="190px" height="190px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dayfornight.io/wp-content/themes/dfn/images/logo-layers.svg#dropped"></use></svg>
+		<svg role="img" class="d c1" viewBox="0 0 190 190" x="0px" y="0px" width="190px" height="190px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dayfornight.io/wp-content/themes/dfn/images/logo-layers.svg#d"></use></svg>
+		<svg role="img" class="fn c0" viewBox="0 0 190 190" x="0px" y="0px" width="190px" height="190px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dayfornight.io/wp-content/themes/dfn/images/logo-layers.svg#fn"></use></svg>
+		</a></h1>
+</header>

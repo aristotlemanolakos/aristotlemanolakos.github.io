@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Addison</name>
+    <description>This is the location of my office.</description>
+    <Point>
+      <coordinates>32.96179,-96.829169</coordinates>
+    </Point>
+  </Placemark>
+</kml>

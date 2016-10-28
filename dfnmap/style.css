@@ -1,0 +1,48 @@
+#map {
+   height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+img{
+   position:absolute;
+   left:15px;
+   top:15px;
+   z-index: 3;
+   width: 10%;
+   height: auto;
+}
+
+
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5_hdpi.png"], a[href^="http://maps.google.com/maps"]{
+    display:none !important;
+}
+
+
+.gmnoprint a, .gmnoprint span{
+    display:none;
+}
+
+
+.gmnoprint {
+    background:none !important;
+}
+
+
+.gm-style-cc:last-child {
+    display: none !important;
+}
+
+
+a[title="Report errors in the road map or imagery to Google"] {
+    display: none !important;
+}
+
+.gm-style-cc{
+   display: none !important;
+}
