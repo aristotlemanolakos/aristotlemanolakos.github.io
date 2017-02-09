@@ -77,7 +77,8 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
   display: inline-block;
   margin: 0;
   -webkit-transition: all 0.23s ease-in-out 0s;
-  transition: all 0.23s ease-in-out 0s; }
+  transition: all 0.23s ease-in-out 0s;
+  -webkit-appearance: none; }
 
 #mc_embed_signup .button:hover {
   background-color: #fff;
