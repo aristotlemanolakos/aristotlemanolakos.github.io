@@ -1,0 +1,124 @@
+<mjml>
+<mj-head>
+  <mj-title>*|MC:SUBJECT|*</mj-title>
+  <mj-attributes>
+    <mj-all />
+    <mj-text font-size="16" />
+  </mj-attributes>
+</mj-head>
+<mj-body max-width="600px" font-family="Helvetica" background-color="#fff">
+  <mj-container background-color="#fff">
+    
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0 10px 0 10px" width="600" src="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/6763360c-29d8-434a-8980-b81fa7342d75.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    
+    <mj-section>
+    <mj-column width="600px" >
+            <mj-hero vertical-align="middle" mode="fluid-height" background-width="600px" background-height="369px" background-url="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/90d90576-cf19-4b18-b9f4-8bbed7fefe19.jpg" background-color="#2a3448" padding="0 10px">
+        <!-- To add content like mj-image, mj-text, mj-button ... use the mj-hero-content component -->
+        <mj-hero-content width="100%" vertical-align="middle">
+          <mj-text padding="20px" color="#ffffff" font-family="sans-serif" align="center" font-size="32" line-height="45px" font-weight="900">
+            TICKETS ON-SALE NOW!
+          </mj-text>
+          <mj-button href="http://shakybeatsfestival.com/festival" align="center" background-color="none" border="2px solid white" border-radius="0" font-size="16px" font-weight="700" font-family="sans-serif">
+            GET TICKETS
+          </mj-button>
+        </mj-hero-content>
+      </mj-hero>
+    </mj-column>
+  </mj-section>
+  
+  <mj-section>
+    <mj-column width="600">
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px">
+        We can't wait to be back in <b>Centennial Olympic Park</b> with y'all for another great year of Shaky Beats!
+      </mj-text>
+      
+      <mj-spacer height="12px"/>
+      
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px">
+        We're bringing <b>The Chainsmokers</b>, <b>Kaskade</b>, <b>RL Grime</b>, + more to downtown Atlanta, <b>May 5-7</b>. Don't miss out on all of the fun, grab your ticket ASAP! 
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  
+  
+      <mj-section>
+      <mj-column>
+        <mj-image padding="0 10px 0 10px" width="600" src="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/34466a1d-1c1b-4df1-b544-fb2dff7a19da.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    
+      <mj-section>
+      <mj-column>
+        <mj-image padding="0 10px 0 10px" width="600" src="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/cb010e3d-42a3-45f1-b6b8-a0ce9899a7a2.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+      <mj-section>
+    <mj-column>
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px">
+        Treat yo self. Shaky Not Stirred is the ultimate VIP experience at Shaky Beats. We're giving <b>one lucky winner</b> the ultimate weekend in Atlanta, including
+      </mj-text>
+      
+      <mj-spacer height="18px"/>
+      
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px 0px 25px">
+      <b>• 3 Day Tickets for 9 People</b>
+      </mj-text>
+      <mj-spacer height="12px"/>
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px 0px 25px">
+      <b>• Full Bottle Service</b>
+      </mj-text>
+      <mj-spacer height="12px"/>
+      <mj-text font-family="Helvetica" font-weight="200" font-size="14px" line-height="18px" color="#010101" align="left" padding="0 10px 0px 25px">
+      <b>• Dedicated Entrance + much more </b>
+      </mj-text>
+      <mj-spacer height="18px"/>
+      <mj-button href="http://shakybeatsfestival.com" font-family="Helvetica" background-color="#ff5136" color="white" border-radius="0" font-size="16px" font-weight="700">
+          ENTER TO WIN
+          </mj-button>
+    </mj-column>
+  </mj-section>
+  
+  <mj-section background-color="#2a3259" padding-top="0px" padding-bottom="20px">
+    
+  </mj-section>
+  
+  <mj-section background-color="#222222">
+    <mj-column width="600">
+      <mj-social
+              mode="horizontal"
+              text-mode="none"
+              display="fb tw inst"
+              icon-size="25px"
+              
+              fb-icon-color="none"
+              fb-icon="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/df4c32cc-c5f8-49e8-a28b-9dffbe086163.png"
+              fb-href="https://facebook.com/shakybeats"
+              
+              tw-icon-color="none"
+              tw-icon="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/873672d2-a0b0-4001-87e0-ada451e28993.png"
+              tw-href="https://twitter.com/shakybeats"
+              
+              inst-icon-color="none"
+              inst-icon="https://gallery.mailchimp.com/f7b195fda1b4bf97d59795d04/images/aee6d6f7-4ddd-4c86-97fe-c15913d2f3b6.png"
+              inst-href="https://twitter.com/shakybeats" />
+              
+            <mj-text font-family="Helvetica" font-weight="200" font-size="12px" line-height="18px" color="#fff" align="center" padding="0 15px" >You are receiving this email because you opted in at our webslte, as part of a giveaway entry, or during your ticket purchase. You can <a style="color:#ff5136; text-decoration:none;" href="*|UPDATE_PROFILE|*">update your profile</a> or <a style="color:#ff5136;  text-decoration:none;" href="*|UNSUB|*">unsubscribe</a>. </mj-text>
+            
+            <mj-spacer height="18px"/>
+            
+<mj-text font-family="Helvetica" font-weight="200" font-size="12px" line-height="18px" color="#fff" align="center" padding="0 15px" >Copyright © 2017<br/> Shaky Beats </mj-text>
+    </mj-column>
+  </mj-section>
+  
+      
+  </mj-container>
+</mj-body>
+</mjml>
