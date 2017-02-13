@@ -1,0 +1,24 @@
+
+1. Create email template
+	- Use Shaky Beats color palette
+	- billboard feature
+		- text over image (hard)
+		- Heading: Tickets On-Sale Now!
+		- Button: “Get Tickets” link to /tickets
+
+2. Setup MailChimp account
+	- Use best judgement
+	- add Eric, Julie, Kevin, Andrew as subscribers
+	- invite April as admin
+
+3. Document the process of using MailChimp
+	- GitBooks
+
+4. Create subscriber embed form
+	- sign-up process use double optin
+	- public web page (personal site)
+
+
+	
+
+
