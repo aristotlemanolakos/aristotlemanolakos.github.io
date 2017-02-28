@@ -89,7 +89,8 @@ p {
     //font-family: 'Lato';
     font-weight: 100;
     //padding-left: 35px;
-    opacity: .9;
+    opacity: .8;
+    line-height: 1.2;
 }
 ::-moz-selection {
     background: rgba(0, 0, 0, 0.4);
